@@ -8,4 +8,6 @@ def month_to_season(month):
         print("Лето")
     elif (month == 9) or (month == 10) or (month == 11):
         print("Осень")
+    else:
+        print("Ошибка")
 month_to_season(month)
